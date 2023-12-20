@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../Styles/style.css">
+		<link rel="icon" type="image/png" href="../Ressources/Main/favicon.jpg">
+		<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+		<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+		<title> Discographie </title>
+	</head>
+	<body>
+		<header>
+			<article id="black">
+				<h1 id="title">Myth and Roid</h1>
+			</article>
+			<nav>
+				<table id="table">
+					<tr>
+						<td><a href="../index.html#select"><p class="button">Accueil</p></a></td>
+						<td><a href="a_propos.html#select"><p class="button">A propos</p></a></td>
+						<td><a href="discographie.html"><p class="button" id="select">Discographie</p></a></td>
+					</tr>
+				</table>
+			</nav>
+		</header>
+		<section id="content">	
+			<h2 class="content"> Le groupe Myth and Roid a sorti de nombreuses œuvres depuis sa création et certaines ont même été dans le haut du classement du Oricon tel que eYe's qui a atteint la 6ème place.</h2>
+			<article>
+				<table class="taberu2">
+					<tr>
+						<td><a target="_blank" class="link" href="https://open.spotify.com/album/27OwyavJvLiGWsfM6VjVQi"><h2 class="bold">eYe's</h2></a></td>
+						<td><p>
+								<py-script>
+									from datetime import datetime
+									Actual3=[]
+									Eye=[2017, 0o4, 26]
+									Actual=datetime.now()
+									Actual=str(Actual)
+									Actual=Actual.split(" ")
+									Actual2=Actual[0]
+									Actual2=Actual2.split("-")
+									Actual3.append(int(Actual2[0]))
+									Actual3.append(int(Actual2[1]))
+									Actual3.append(int(Actual2[2]))
+									Calcul=Actual3[0]-Eye[0],Actual3[1]-Eye[1],Actual3[2]-Eye[2]
+									Date=abs(Calcul[0]),abs(Calcul[1]),abs(Calcul[2])
+									Date=str(Date)
+									print("\x1b Cela fait " + Date[1] + " ans " + Date[4] + " mois et " + Date[7] + " jours que cet album est sorti.")
+								</py-script>
+							</p>
+						</td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<table class="musique">
+					<tr>
+						<td><h2 class="musicontent">- A beginning -</h2></td>
+						<td><p class="musicontent">theater D</p></td>
+						<td rowspan="7" class="td"><img class="illustration2" alt="eYe's" title="eYe's" src="../Ressources/Discographie/eye.jpg"></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">TRAGEDY:ETERNITY</p></td>
+						<td><p class="musicontent">JINGO JUNGLE -HBB Remix-</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">Paradisus-Paradoxum</p></td>
+						<td><p class="musicontent">Crazy Scary Holy Fantasy</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">STYX HELIX</p></td>
+						<td><p class="musicontent">L.L.L.</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">Yuki wo Kiku Yoru</p></td>
+						<td><p class="musicontent">sunny garden sunday</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">Tough & Alone</p></td>
+						<td><p class="musicontent">-- to the future days</p></td>
+					<tr>
+						<td><p class="musicontent">ANGER/ANGER</p></td>
+						<td><p class="musicontent">-An ending</p></td>
+					</tr>
+				</table>
+			</article>
+			<p class="caption">Écouter Crazy Scary Holy Fantasy: </p>
+			<video width="520" height="440" controls poster="../Ressources/Discographie/albedo.jpg">
+				<source src="../Vidéo/myth.mp4" type="video/mp4">
+			</video>
+			<hr>
+			<article>
+				<table class="taberu2">
+					<tr>
+						<td><a target="_blank" class="link" href="https://open.spotify.com/album/3VBaCgrD7i77Y0P3wiOol1"><h2 class="bold">Museum–The Best of Myth & Roid–</h2></a></td>
+						<td><p>Cela fait 2 ans 8 mois et 2 jours que cette compilation est sortie.</p></td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<table class="musique">
+					<tr>
+						<td><h2 class="musicontent">L.L.L.</h2></td>
+						<td><p class="musicontent">JINGO JUNGLE</p></td>
+						<td rowspan="8" class="td"><img class="illustration2" alt="Museum–The Best of Myth & Roid–" title="Museum–The Best of Myth & Roid–" src="../Ressources/Discographie/museum.jpg"></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">ANGER/ANGER</p></td>
+						<td><p class="musicontent">Remembrance</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">STYX HELIX</p></td>
+						<td><p class="musicontent">HYDRA</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">STRAIGHT BET</p></td>
+						<td><p class="musicontent">VORACITY</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">Paradisus-Paradoxum</p></td>
+						<td><p class="musicontent">shadowgraph</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">theater D</p></td>
+						<td><p class="musicontent">PANTA RHEI</p></td>
+					<tr>
+						<td><p class="musicontent">Crazy Scary Holy Fantasy</p></td>
+						<td><p class="musicontent">TIT FOR TAT</p></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">Forever Lost</p></td>
+						<td><p class="musicontent">Cracked Black</p></td>
+					</tr>
+				</table>
+			</article>
+			<p class="caption">Écouter TIT FOR TAT: </p>
+			<video width="520" height="440" controls poster="../Ressources/Discographie/cautious2.jpg">
+				<source src="../Vidéo/cautious.mp4" type="video/mp4">
+			</video>
+			<hr>
+			<article>
+				<table class="taberu2">
+					<tr>
+						<td><a target="_blank" class="link" href="https://open.spotify.com/album/14UgZDpDAOYK4dEqA3ZvUJ"><h2 class="bold">Future is Mine</h2></a></td>
+						<td><p class="center">Cela fait 2 ans 1 mois et 0 jours que ce single est sorti.</p></td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<table class="musique">
+					<tr>
+						<td><h2 class="musicontent">Future is mine</h2></td>
+						<td><p class="musicontent">Future is mine -instrumental</p></td>
+						<td rowspan="2" class="td"><img class="illustration2" alt="Future is mine" title="Future is mine" src="../Ressources/Discographie/Reminiscience.jpg"></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">Reminiscience Reincarnation</p></td>
+						<td><p class="musicontent">Reminiscience Reincarnation -instrumental</p></td>
+					</tr>
+				</table>
+			</article>
+			<p class="caption">Écouter Reminiscience Reincarnation: </p>
+			<video width="520" height="440" controls poster="../Ressources/Discographie/EternalCity.jpg">
+				<source src="../Vidéo/Reminisciencevid.mp4" type="video/mp4">
+			</video>
+			<hr>
+			<article>
+				<table class="taberu2">
+					<tr>
+						<td><a target="_blank" class="link" href="https://open.spotify.com/album/3K148a259UUXJc9n2nJ1fp"><h2 class="bold">BRILLIANT BRIGHT</h2></a></td>
+						<td><p class="center">Cela fait 1 ans 7 mois et 22 jours que ce single est sorti.</p></td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<table class="musique">
+					<tr>
+						<td><h2 class="musicontent">BRILLIANT BRIGHT</h2></td>
+						<td><p class="musicontent">BRILLIANT BRIGHT (instrumental)</p></td>
+						<td class="td"><img class="illustration2" alt="BRILLIANT BRIGHT" title="BRILLIANT BRIGHT" src="../Ressources/Discographie/brilliant.jpg"></td>
+					</tr>
+				</table>
+			</article>
+			<p class="caption">Écouter Brilliant Bright: </p>
+			<video width="520" height="440" controls poster="../Ressources/Discographie/brilliant.webp">
+				<source src="../Vidéo/brilliant.mp4" type="video/mp4">
+			</video>
+			<hr>
+			<article>
+				<table class="taberu2">
+					<tr>
+						<td><a target="_blank" class="link" href="https://open.spotify.com/album/5swyfkFnus19Kzo2MBE6UC"><h2 class="bold">ENDLESS EMBRACE</h2></a></td>
+						<td><p class="center">Cela fait 0 ans 3 mois et 5 jours que ce single est sorti.</p></td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<table class="musique">
+					<tr>
+						<td><h2 class="musicontent">Endless Embrace</h2></td>
+						<td><p class="musicontent">Endless Embrace (instrumental)</p></td>
+						<td rowspan="2" class="td"><img class="illustration2" alt="ENDLESS EMBRACE" title="ENDLESS EMBRACE" src="../Ressources/Discographie/endless.jpg"></td>
+					</tr>
+					<tr>
+						<td><p class="musicontent">Clattanoia (penumbral)</p></td>
+						<td><p class="musicontent">Clattanoia (penumbral)(instrumental)</p></td>
+					</tr>
+				</table>
+			</article>
+			<p class="caption">Écouter Endless Embrace: </p>
+			<video id="endisco" width="520" height="440" controls poster="../Ressources/Discographie/faputa.jpg">
+				<source src="../Vidéo/endless.mp4" type="video/mp4">
+			</video>
+			</section>
+		<footer>
+			<table id="taberu">
+				<tr>
+					<td colspan=3><p id="footer">Réseaux Sociaux</p></td>
+				</tr>
+				<tr>
+					<td><a target="_blank" href="https://www.youtube.com/channel/UCy-KRbBQm9bV0Kl0mSyVhAw"><img class="icon" src="../Ressources/Main/Youtube1.png" title="Youtube" alt="Youtube"></a></td>
+					<td><a target="_blank" href="https://twitter.com/myth_and_roid"><img class="icon"  src="../Ressources/Main/twitter.png" title="Twitter1" alt="Twitter"></a></td>
+					<td><a target="_blank" href="https://open.spotify.com/artist/1NRrtMvT3o1TI6I8XCuweq"><img class="icon"  src="../Ressources/Main/spotify1.png" title="Spotify" alt="Spotify"></a></td>
+				</tr>
+				<tr>
+					<td colspan=3><a href="#select"><img id="icon3" src="../Ressources/Main/arrow.png" title="Remonter" alt="Remonter"></a>
+				</tr>
+				<tr>
+					<td colspan=3><p id="textfooter">Remonter en haut de page</p></td>
+				</tr>
+			</table>
+		</footer>
+	</body>
+</html>
+	

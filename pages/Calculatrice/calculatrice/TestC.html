@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="TestC.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="3" id="borderscreen"></td>
+                    <td onClick="Aclear()" class="clear">AC</td>
+                </tr>
+                <tr>
+                    <td onClick="getNumber(1)" class="numbers">1</td>
+                    <td onClick="getNumber(2)" class="numbers">2</td>
+                    <td onClick="getNumber(3)" class="numbers">3</td>
+                    <td onClick="getNumber('+')" class="operators">+</td>
+                </tr>
+                <tr>
+                    <td onClick="getNumber(4)" class="numbers">4</td>
+                    <td onClick="getNumber(5)" class="numbers">5</td>
+                    <td onClick="getNumber(6)" class="numbers">6</td>
+                    <td onClick="getNumber('-')" class="operators">-</td>
+
+                </tr>
+                <tr>
+                    <td onClick="getNumber(7)" class="numbers">7</td>
+                    <td onCLick="getNumber(8)" class="numbers">8</td>
+                    <td Onclick="getNumber(9)" class="numbers">9</td>
+                    <td onClick="getNumber('*')" class="operators">*</td>
+
+                </tr>
+                <tr>
+                    <td onClick="getNumber('.')" class="numbers">.</td>
+                    <td onClick="getNumber(0)" class="numbers">0</td>
+                    <td onClick="sClear()" class="clear">C</td>
+                    <td onClick="getNumber('/')" class="operators">/</td>
+
+                </tr>
+                <tr>
+                    <td colspan=4 onClick="result()" id="result">=</td>
+                </tr>
+            </table>
+        </div>
+        <script src="TestC.js"></script>
+    </body>
+</html>

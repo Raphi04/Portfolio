@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+}
+div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width:50px;
+}
+table{
+    margin:auto;
+    width:400px;
+    height:500px;
+    border:black 1px solid;
+    border-radius: 10px;
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align:center;
+    background-color: rgb(232, 232, 232);
+}
+td{
+    font-size: 20px;
+    border: black 2px solid;
+    padding: 10px;
+    cursor:pointer;
+    background-color: rgb(227, 249, 251);
+    transition-property: border-color;
+    transition-duration: 0.1s;
+}
+#borderscreen:hover{
+    border-color:black;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: auto;
+}
+td:hover{
+    border-color: rgb(93, 92, 92);
+    box-shadow: rgb(57, 57, 57) 0px 1px 5px 0px;
+}
+.operators{
+    background-color: rgb(107, 147, 147);
+    color:white;
+    transition-property: background-color;
+    transition-duration: 0.1s;  
+}
+.operators:active{
+    background-color: rgb(89, 121, 121);
+}
+.numbers{
+    background-color: rgb(150, 206, 206);
+    color:white;
+    transition-property: background-color;
+    transition-duration: 0.1s;   
+}
+.numbers:active{
+    background-color: rgb(125, 170, 170);
+}
+.clear{
+    background-color: rgb(250, 101, 101);
+    color:white;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+.clear:active{
+    background-color: rgb(195, 79, 79); 
+}
+#result{
+    background-color: rgb(102, 151, 194);
+    transition-property: background-color;
+    transition-duration: 0.1s;  
+}
+#result:active{
+    background-color: rgb(75, 109, 140);
+}
+#screen{
+    background-color: rgb(227, 249, 251);
+    border:0px;
+}
